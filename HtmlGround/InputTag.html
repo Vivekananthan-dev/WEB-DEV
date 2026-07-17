@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head> 
+    <link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <script src = "https://cdn.jsdelivr.net/npm/flatpickr"></script>
+  </head>
+
+  <body>
+    <input type="date" />
+
+    <form id="validate"></form>
+
+    <script>
+      var datepicker = document.createElement("input");
+      var form1 = document.getElementById("validate");
+      datepicker.setAttribute("type", "foo");
+      form1.appendChild(datepicker);
+      if (datepicker.type == "text") {
+        flatpickr(datepicker, {dateFormat: "y-m-d"});
+      }
+    </script>
+  </body>
+</html>
