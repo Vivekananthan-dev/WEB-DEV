@@ -11,8 +11,8 @@ const books = [
     },
     {
         id:3,
-        title:"Worlds best Love Story",
-        author: "VivekSweta"
+        title:"Worlds best story",
+        author: "Vivek"
     }
 ];
 
