@@ -54,7 +54,7 @@ if(true){
     console.log(c);
 
 }
- let b = "1000";
+//let b = "1000";
  console.log(b)
 
     console.log(g);
